@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+figure img{
+    width:12rem;
+    height:15rem;
+    object-fit: cover;
+    
+}
+.first-sec-img,.second-sec-img,.third-sec-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:2em 0;
+    
+}
+
+
+.main-header{
+    height:10vh;
+    background-color:lightseagreen;
+    text-align:center;
+    padding:0.2em;
+    color:#fff;
+    font-size:2rem;
+}
+
+.burger{
+    border:15px solid lightseagreen;
+    margin:0 2em;
+}
+.cake{
+    border:15px dashed lightseagreen;
+    margin:0 2em;
+}
+.coffee{
+    border:15px dotted lightseagreen;
+    margin:0 2em;
+}
+.fish-fry{
+    border:15px outset lightseagreen;
+    margin:0 2em;
+}
+.icecream{
+    border:15px outset lightseagreen;
+    margin:0 2em;
+}
+.pastha{
+    border:15px double lightseagreen;
+    margin:0 2em;
+}
+
+.main-writing{
+    border-top: 10px solid green;
+    border-left: 10px solid red;
+    border-bottom:10px solid blue;
+    border-right: 10px solid magenta;
+    width:50vw;
+    margin-left:22rem;
+    background-color:lightseagreen;
+    color:#fff;
+    padding:0.8em;
+    margin-bottom:1.5em
+}
+.sub-head{
+    text-align:center;
+}
+ul{
+    list-style:none;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:lightseagreen;
+    height:10vh;
+    
+}
+.footer-links{
+    display: flex;
+   
+    
+}
+.footer-links li{
+    margin:0em 2em;
+}
+a:link{
+    text-decoration:none;
+    color:white;
+    font-size:1.4rem
+}
+a:link:hover{
+    text-decoration: underline;
+    color:blue;
+}
